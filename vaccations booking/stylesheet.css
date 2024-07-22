@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: calibri,sans-serif;
+    text-align: center;
+}
+h1{
+    fonr-size:80px;
+    color:grey;
+}
+p{
+    font-size: 20px;
+    color: gray;
+    padding: 10px;
+}
+.button{
+    background-color: grey;
+    padding: 10px 25px;
+    color: white;
+    border: none;
+    margin: 10px;
+}
+.main-header{
+    background:linear-gradient(45deg,teal,lightseagreen);
+    padding: 25px;
+}
+.main-header h1{
+    color: whitesmoke;
+}
+nav{
+    background-color: lightgray;
+}
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+    color: black;
+}
+nav a:hover{
+    background-color: lightseagreen;
+    color: whitesmoke;
+}
+.home-section{
+    padding: 200px;
+}
+.button{
+    background-color: rgb(205, 240, 135);
+    color:blue;
+}
+button:hover{
+    background-color: lightseagreen;
+    color: whitesmoke;
+}
+.packages-section figure{
+    box-shadow: 0 0 10px black;
+    width: 300px;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px;
+}
+.packages-section figure img{
+    width: 100%;
+}
+.packages-section figure figcaption{
+    font-size: 35px;
+}
+.packages-section figure p{
+    font-size: 15px;
+}
+.main-footer{
+    background-color: gray;
+    padding: 10px;
+    color: whitesmoke;
+    margin-top: 20px;
+}
